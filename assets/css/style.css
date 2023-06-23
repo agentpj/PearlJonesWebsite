@@ -1,3 +1,5 @@
+/* Pearl Jones Style file */
+
 * {
   box-sizing: border-box;
 }
@@ -8,10 +10,14 @@ body {
 }
 
 header {
-  padding: 40px;
-  text-align: center;
+  padding: 20px;
+  text-align: left;
   background: #13293d;
   color: #fff;
+}
+
+p {
+  text-align: right;
 }
 
 /* 
@@ -19,18 +25,21 @@ What happens when we set the display property to flex?
 TODO: Write your answer here
 The nav bar - the 4 topics stack
 */
-nav {
+header nav a {
   display: flex;
-  background-color: #d8a47f;
+ /* background-color: #d8a47f; */
+  color: white;
+  text-align: justify;
+  text-decoration: none;
 }
-
+/*
 nav a {
   color: #13293d;
   padding: 14px 20px;
   text-decoration: none;
-  text-align: center;
+  text-align: right;
 }
-
+*/
 /* 
 What is the flex-wrap property? 
 TODO: Write your answer here 
