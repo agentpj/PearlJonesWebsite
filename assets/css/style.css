@@ -13,7 +13,7 @@ header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  /* text-align: left; */
-  background: #13293d;
+  background: rgb(121, 121, 171);
   color: #fff;
 }
 
@@ -66,7 +66,7 @@ main {
 
 aside {
   flex: 0;
-  background-color: #b9c6ae;
+  background-color: rgb(147, 147, 177);
   padding: 50px;
   text-align: right;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -92,18 +92,18 @@ aside {
 }
 */
 
-.aboutme h2  .worksample h2 .contactme h2{
+.aboutme h2 {
   text-align: right;
   margin-bottom: 10px;
 }
 
-footer {
-  padding: 20px;
-  text-align: center;
-  background: #13293d;
-  color: #fff;
+.worksample h2 {
+  margin-bottom: 10px;
 }
 
+.contactme h2 {
+  margin-bottom: 0px;
+}
 /* 
 What does the justify-content property do? 
 The products are in the center, on the main axis
@@ -135,14 +135,21 @@ does not grow, not shrink, and sets to 400
 .card header {
   padding: 20px;
 }
-
+/*
 .card p {
   text-align: center;
 }
-
+*/
 .card img {
   width: 100%;
   height: 50%;
+}
+
+footer {
+  padding: 5px;
+  text-align: center;
+  background: rgb(121, 121, 171);
+  color: #fff;
 }
 
 /* 
