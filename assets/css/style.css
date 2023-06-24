@@ -11,8 +11,7 @@ body {
 
 header {
   padding: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- /* text-align: left; */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background: rgb(121, 121, 171);
   color: #fff;
 }
@@ -60,14 +59,15 @@ TODO: Write your answer here
 Everything in main just wraps around
 */
 main {
-  display: flex;
+  display: flex; 
   flex-wrap: wrap;
 }
 
 aside {
+  width: 20%;
   flex: 0;
   background-color: rgb(147, 147, 177);
-  padding: 50px;
+  padding: 20px;
   text-align: right;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -85,12 +85,6 @@ aside {
   margin-top: 0px;
   padding-bottom: 5px;
 }
-/*
-.float-center {
-  float: center;
-  margin-right: 25px;
-}
-*/
 
 .aboutme h2 {
   text-align: right;
@@ -104,11 +98,20 @@ aside {
 .contactme h2 {
   margin-bottom: 0px;
 }
-/* 
-What does the justify-content property do? 
-The products are in the center, on the main axis
+
+
+.meparagraph {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+  /*
+
+The work samples are in the center, on the main axis
 */
-.products {
+.work {
+  margin-top: 50px;
   flex: 2;
   background-color: #fff;
   padding: 50px;
@@ -135,11 +138,7 @@ does not grow, not shrink, and sets to 400
 .card header {
   padding: 20px;
 }
-/*
-.card p {
-  text-align: center;
-}
-*/
+
 .card img {
   width: 100%;
   height: 50%;
