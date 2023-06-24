@@ -1,4 +1,4 @@
-/* Pearl Jones Style file */
+/* Pearl Jones Personal Website Style file */
 
 * {
   box-sizing: border-box;
@@ -11,9 +11,39 @@ body {
 
 header {
   padding: 20px;
-  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ /* text-align: left; */
   background: #13293d;
   color: #fff;
+}
+
+header h1{
+  display:inline-block;
+  font-size:30px;
+}
+
+header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+}
+header nav ul {
+  list-style-type:none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+header nav a {
+  display: flex;
+ /* background-color: #d8a47f; */
+  color: white;
+  text-align: justify;
+  text-decoration:underline;
 }
 
 p {
@@ -25,13 +55,8 @@ What happens when we set the display property to flex?
 TODO: Write your answer here
 The nav bar - the 4 topics stack
 */
-header nav a {
-  display: flex;
- /* background-color: #d8a47f; */
-  color: white;
-  text-align: justify;
-  text-decoration: none;
-}
+
+
 /*
 nav a {
   color: #13293d;
@@ -72,7 +97,7 @@ The products are in the center, on the main axis
 .products {
   flex: 4;
   background-color: #fff;
-  padding: 20px;
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -103,6 +128,7 @@ does not grow, not shrink, and sets to 400
 
 .card img {
   width: 100%;
+  height: 50%;
 }
 
 /* 
