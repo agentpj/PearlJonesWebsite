@@ -22,6 +22,10 @@ header h1{
   font-size:30px;
 }
 
+/* 
+The nav bar - the 4 selections inline
+*/
+
 header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -51,21 +55,6 @@ p {
 }
 
 /* 
-What happens when we set the display property to flex? 
-TODO: Write your answer here
-The nav bar - the 4 topics stack
-*/
-
-
-/*
-nav a {
-  color: #13293d;
-  padding: 14px 20px;
-  text-decoration: none;
-  text-align: right;
-}
-*/
-/* 
 What is the flex-wrap property? 
 TODO: Write your answer here 
 Everything in main just wraps around
@@ -78,10 +67,29 @@ main {
 aside {
   flex: 0;
   background-color: #b9c6ae;
-  padding: 80px;
+  padding: 50px;
   text-align: center;
 }
 
+.aboutme{
+  margin-left: 0px;
+  float: left;
+  width: 30%;
+  height: 100%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.aboutme img {
+  float: center;
+  max-height: 150px;
+  margin-top: 0px;
+  padding-bottom: 5px;
+}
+.float-center {
+  float: center;
+  margin-right: 25px;
+}
 
 footer {
   padding: 20px;
@@ -95,9 +103,9 @@ What does the justify-content property do?
 The products are in the center, on the main axis
 */
 .products {
-  flex: 4;
+  flex: 2;
   background-color: #fff;
-  padding: 10px;
+  padding: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
