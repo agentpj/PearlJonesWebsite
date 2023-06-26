@@ -32,18 +32,20 @@ header nav {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 15px;
 }
+/*
 header nav ul {
   list-style-type:none;
 }
+*/
 
-header nav ul li {
+header nav li {
+  list-style-type: none;
   display: inline-block;
   margin-left: 25px;
 }
 
 header nav a {
   display: flex;
- /* background-color: #d8a47f; */
   color: white;
   text-align: justify;
   text-decoration:underline;
@@ -53,13 +55,16 @@ p {
   text-align: right;
 }
 
+p2 {
+  text-align: left;
+}
 /* 
 What is the flex-wrap property? 
 TODO: Write your answer here 
 Everything in main just wraps around
 */
 main {
-  display: flex; 
+ /* display: flex; */
   flex-wrap: wrap;
 }
 
@@ -86,7 +91,7 @@ aside {
   padding-bottom: 5px;
 }
 
-.aboutme h2 {
+.aboutme h2, work h2 {
   text-align: right;
   margin-bottom: 10px;
 }
@@ -99,25 +104,40 @@ aside {
   margin-bottom: 0px;
 }
 
-
+/*
 .meparagraph {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
 }
-  /*
-
-The work samples are in the center, on the main axis
 */
+
+
+.meparagraph h2, .work h2 {
+background-color: blueviolet;
+}
+
+
 .work {
+  margin-top: 50px;
+  /*flex: 2; */
+  background-color: #fff;
+  padding: 50px;
+  display: flex;
+  /*flex-wrap: wrap; */
+  justify-content: center;
+}
+
+#me, #contactinfo {
   margin-top: 50px;
   flex: 2;
   background-color: #fff;
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* 
