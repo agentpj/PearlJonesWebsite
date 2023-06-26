@@ -114,12 +114,13 @@ aside {
 */
 
 
-.meparagraph h2, .work h2 {
-background-color: blueviolet;
+.meparagraph h2, #work h2 {
+  padding: 20px;
+background-color:rgb(147, 147, 177) ;
 }
 
 
-.work {
+#work {
   margin-top: 50px;
   /*flex: 2; */
   background-color: #fff;
