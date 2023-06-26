@@ -48,6 +48,7 @@ header nav a {
 
 p {
   text-align: right;
+  font-size: 20px;
 }
 
 /* the Main starts here */
@@ -76,20 +77,20 @@ background-color:rgb(147, 147, 177);
 
 
 #work {
-  margin-top: 10px;
-  /*flex: 2; */
+  margin-top: 0px;
+  flex: 2; 
   background-color: #fff;
-  padding: 50px;
+  padding: 20px;
   display: flex;
-  /*flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: left;
 }
 
 #me, #contactinfo {
-  margin-top: 10px;
+  margin-top: 0px;
   flex: 2;
   background-color: #fff;
-  padding: 50px;
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
@@ -97,8 +98,6 @@ background-color:rgb(147, 147, 177);
 }
 
 /* 
-What is the flex property a shorthand property for?
-What is it doing here? 
 Flex default is 0,0, at 400 pixes
 flex: flexgrow, flex shrink, flex basis
 does not grow, not shrink, and sets to 400
@@ -127,6 +126,7 @@ a {
   display: flex;
   text-align: justify;
   text-decoration:underline;
+  color: blueviolet;
 
 }
 
