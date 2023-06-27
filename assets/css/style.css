@@ -72,25 +72,23 @@ main {
  /* padding-bottom: 0px; */
 }
 
-#lefttitleme.meparagraph h2,
-#lefttitlepart.workparagraph h2, 
-#lefttitlecontact.contactparagraph h2 {
-padding: 2px;
-background-color:rgb(147, 147, 177);
-width: 10%;
-display: inline-block
+#myphoto{
+  height:200px;
+  width: auto;
 }
 
-/*
-#work {
-  margin-top: 0px;
-  flex: 2; 
-  background-color: #fff;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-} */
+#lefttitleme h2,
+#lefttitlepart h2, 
+#lefttitlecontact h2 {
+/* padding: 2px;
+background-color:rgb(147, 147, 177);
+width: 10%;
+display: inline-block */
+flex-basis: 15%;
+}
+#lefttitleme p {
+  flex-basis:85%
+}
 
 .part {
   margin-top: 0px;
@@ -98,7 +96,7 @@ display: inline-block
   background-color: #fff;
   padding: 10px;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: left;
   align-items: center;
 }
@@ -115,17 +113,15 @@ does not grow, not shrink, and sets to 400
   padding: 10px;
  /* flex: 0 0 400px; */
   flex: 1 1 200px;
-}
-
-.card header {
-  padding: 20px;
-  width: 100%;
+  height:300px;
 }
 
 .card img {
   width: 100%;
-  height: 50%;
+  height: 90%;
 }
+
+/* this is for the links in the main */
 
 a {
   list-style-type: none;
