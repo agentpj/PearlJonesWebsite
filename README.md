@@ -3,6 +3,7 @@ Pearl' Jones first try on business website for Challenge 2 created on June 27, 2
 
 
 Git hub link: https://github.com/agentpj/PearlJonesWebsite
+Link to Live site : https://agentpj.github.io/PearlJonesWebsite/
 
 This is a portfolio website to be provided to a perspective employer with samples of my work.
 
