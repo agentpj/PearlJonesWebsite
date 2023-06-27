@@ -5,17 +5,17 @@
 }
 
 body {
-  font-family: Arial;
   margin: 0;
 }
 
+/* this is the very top part with purple background border */
 header {
   padding: 20px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background: rgb(121, 121, 171);
   color: #fff;
 }
-
+/* where Pearl Jones, web developer title is */
 header h1{
   display:inline-block;
   font-size:30px;
@@ -23,6 +23,7 @@ header h1{
 
 /* 
 The nav bar - the 4 selections inline
+About Me, Work, Contact Me, Resume
 */
 
 header nav {
@@ -54,24 +55,13 @@ p {
 }
 
 /* the Main starts here */
-/* 
-What is the flex-wrap property? 
 Everything in main just wraps around
 */
 main {
- /* display: flex;  */
   flex-wrap: wrap;
 }
 
-/*
-.photoofme img {
-  float: center;
-  max-height: 100px;
-  margin-top: 10px;
-  margin-left: 50px; */
- /* padding-bottom: 0px; */
-
-
+/* where to put Pearl's photo */
 #myphoto{
   height:200px;
   width: auto;
@@ -82,23 +72,22 @@ main {
 #lefttitleme h2,
 #lefttitlepart h2, 
 #lefttitlecontact h2 {
-/* padding: 2px;
-background-color:rgb(147, 147, 177);
-width: 10%;
-display: inline-block */
+  background-color:rgb(121, 121, 171) ;
 flex-basis: 15%;
 }
+
+/* this prints the paragraph on Pearl Jones */
 #lefttitleme p {
   flex-basis:85%
 }
 
+/* the containcer fr the 3 sections */
 .part {
   margin-top: 0px;
   flex: 2;
   background-color: #fff;
   padding: 10px;
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: left;
   align-items: center;
 }
@@ -113,7 +102,6 @@ does not grow, not shrink, and sets to 400
   border-width: 1px;
   border-radius: 10px;
   padding: 10px;
- /* flex: 0 0 400px; */
   flex: 1 1 200px;
   height:300px;
 }
@@ -123,8 +111,7 @@ does not grow, not shrink, and sets to 400
   height: 90%;
 }
 
-/* this is for the links in the main */
-
+/* this is for the links in the main shows the projects */
 a {
   list-style-type: none;
   display: inline-block;
