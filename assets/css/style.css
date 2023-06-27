@@ -48,6 +48,7 @@ header nav a {
 
 /* for the tag line */
 p {
+  margin-top: 40px;
   text-align: right;
   font-size: 20px;
 }
@@ -71,13 +72,16 @@ main {
  /* padding-bottom: 0px; */
 }
 
-.meparagraph h2, #work h2 {
-padding: 50px;
+#lefttitleme.meparagraph h2,
+#lefttitlepart.workparagraph h2, 
+#lefttitlecontact.contactparagraph h2 {
+padding: 2px;
 background-color:rgb(147, 147, 177);
-
+width: 10%;
+display: inline-block
 }
 
-
+/*
 #work {
   margin-top: 0px;
   flex: 2; 
@@ -86,9 +90,9 @@ background-color:rgb(147, 147, 177);
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
-}
+} */
 
-#me, #contactinfo {
+.part {
   margin-top: 0px;
   flex: 2;
   background-color: #fff;
@@ -115,10 +119,11 @@ does not grow, not shrink, and sets to 400
 
 .card header {
   padding: 20px;
+  width: 100%;
 }
 
 .card img {
-  width: 50%;
+  width: 100%;
   height: 50%;
 }
 
