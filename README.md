@@ -16,5 +16,7 @@ This website includes information about Pearl Jones, such as:
 -Includes images of the completed work
 -In the contact me, includes links to Pearl's phone number, email, GitHub site
 
-The files included in the project are index.html, style.css, images folder containing 3 images used in this website, and this file readme.md.
+The files included in the project are index.html, style.css, images folder containing 4 images used in this website, and this file readme.md.
 
+
+![The readme.md includes a screenshot of PearlJonesWebsite.](./assets/images/PearlJonesWebsiteDemo.jpg)
